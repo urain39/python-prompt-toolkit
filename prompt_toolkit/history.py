@@ -236,7 +236,7 @@ class LazyHistory(FileHistory):
     Example:
         with LazyHistory('history.txt') as history:
             session = PromptSession(history=history)
-            result =  session.prompt()
+            result  = session.prompt()
             ...
     """
     def __init__(self, filename):
